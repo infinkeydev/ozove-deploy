@@ -1,0 +1,140 @@
+.main_free_to_work_section {
+    .innermain_free_to_work_section {
+
+        @include mediaResponsive(md) {
+            padding: 10px 0px !important;
+            border-radius: 10px;
+            background: var(--ozove-white, #FFF);
+            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+        }
+
+        // .freetoworkbanner img {
+        //     height: 100% !important;
+        //     width: 100% !important;
+        //     object-fit: contain !important;
+        // }
+
+        .why_partner_title {
+            color: $grey;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+
+            @include mediaResponsive(lg) {
+                font-size: 20px;
+            }
+
+            @media(max-width:991px) {
+                font-size: 18px;
+            }
+
+            @media(max-width:576px) {
+                font-size: 16px;
+            }
+        }
+
+        .freedotexttitle {
+            color: $grey;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+
+            @include mediaResponsive(lg) {
+                font-size: 28px;
+            }
+
+            @media (max-width:991px) {
+                font-weight: 600;
+                font-size: 26px;
+            }
+
+            @media (max-width:576px) {
+                font-size: 22px;
+            }
+        }
+
+        .inner_freedom_section {
+            @include mediaResponsive(md) {
+                height: 100% !important;
+                align-items: center !important;
+                border-radius: 5px;
+                background: #F1F1F1;
+            }
+
+            .inner_freedom_svg {
+                svg {
+                    height: 100% !important;
+                    width: 100% !important;
+
+                    @include mediaResponsive(md) {
+                        height: 100% !important;
+                        width: 100% !important;
+                    }
+                }
+            }
+
+            .inner_freedom_main_title {
+                color: $grey;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: normal;
+
+                @include mediaResponsive(md) {
+                    font-size: 14px;
+                    line-height: normal;
+                }
+
+                @include mediaResponsive(sm) {
+                    font-size: 12px;
+                    line-height: normal;
+                }
+
+                @include mediaResponsive(xs) {
+                    font-size: 10px;
+                    line-height: normal;
+                }
+            }
+
+            .inner_freedom_main_description {
+                color: $grey;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22px;
+
+                @include mediaResponsive(md) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+.freetoworkction_inner_section {
+    overflow-x: auto !important;
+}
+
+.freetoworkction_inner_section::-webkit-scrollbar {
+    color: #0d1a92ab;
+    border-radius: 40px;
+    height: 5px;
+    width: 2px;
+    display: none;
+}
+
+.freetoworkction_inner_section::-webkit-scrollbar-track {
+    background-color: #0d1a923b;
+    border-radius: 40px;
+}
+
+.freetoworkction_inner_section::-webkit-scrollbar-thumb {
+    background-color: #0d1a9233;
+    border-radius: 50px;
+}
+
+.freetoworkction_inner_section::-webkit-scrollbar-thumb:hover {
+    background-color: #0d1a92;
+    width: 3px;
+}

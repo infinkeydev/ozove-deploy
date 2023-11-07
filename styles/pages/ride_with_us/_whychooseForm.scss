@@ -1,0 +1,367 @@
+/**USE WHY CHOOSE SECTION IN web & MOBILE**/
+.whychoosemain_title {
+    color: $grey;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    text-transform: capitalize;
+
+    @media(max-width: 1700px) {
+        font-size: 40px;
+    }
+
+    @media (max-width:1500px) {
+        font-size: 38px;
+    }
+
+    @media (max-width:1200px) {
+        font-size: 35px;
+    }
+
+    @media (max-width:991px) {
+        color: $socialiconyellow;
+        font-size: 30px;
+    }
+
+    @media (max-width:576px) {
+        font-size: 22px;
+    }
+}
+
+.whychoosemain_title1 {
+    color: $socialiconyellow;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    text-transform: capitalize;
+
+    @media(max-width: 1700px) {
+        font-size: 40px;
+    }
+
+    @media (max-width:1500px) {
+        font-size: 38px;
+    }
+
+    @media (max-width:1200px) {
+        font-size: 35px;
+    }
+
+    @media (max-width:991px) {
+        font-size: 30px;
+    }
+
+    @media (max-width:576px) {
+        font-size: 22px;
+    }
+}
+
+.form_title {
+    font-size: 25px;
+
+    @media (max-width:1500px) {
+        font-size: 20px;
+    }
+}
+
+.inner_title {
+    color: $grey;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+
+    @media(max-width: 1700px) {
+        font-size: 30px;
+    }
+
+    @media (max-width:1500px) {
+        font-size: 28px;
+    }
+
+    @media (max-width:1200px) {
+        font-size: 24px;
+    }
+
+    @media(max-width:991px) {
+        font-size: 20px;
+    }
+
+    @media (max-width:576px) {
+        font-size: 12px;
+    }
+}
+
+.sub_section {
+
+    @media(min-width:2100px) {
+        margin-top: 16px !important;
+        margin-bottom: 16px !important;
+    }
+
+    .title {
+        color: $grey;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: normal;
+        text-align: left;
+
+        @media(max-width: 1700px) {
+            font-size: 20px;
+        }
+
+        @media (max-width:1500px) {
+            font-size: 17px;
+        }
+
+        @media (max-width:1200px) {
+            font-size: 14px;
+        }
+    }
+
+    .desc {
+        color: $black;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: normal;
+        text-align: left;
+
+        @media (min-width:2100px) {
+            font-weight: 500px;
+        }
+
+        @include mediaResponsive(xxl) {
+            font-size: 18px;
+        }
+
+        @include mediaResponsive(xl) {
+            font-size: 18px;
+        }
+
+        @include mediaResponsive(lg) {
+            line-height: 18px;
+            font-size: 18px;
+        }
+
+        @include mediaResponsive(mLg) {
+            font-size: 18px;
+        }
+
+        @include mediaResponsive(md) {
+            text-transform: capitalize;
+            line-height: 12px;
+            font-size: 10px;
+        }
+
+        @include mediaResponsive(sm) {
+            line-height: 12px;
+            font-size: 10px;
+        }
+
+        @include mediaResponsive(xs) {
+            line-height: 12px;
+            font-size: 10px;
+        }
+    }
+}
+
+/**USE WHY CHOOSE SECTION IN MOBILE**/
+.whychoose_inner_section {
+    overflow-x: auto;
+}
+
+.whychoose_inner_section::-webkit-scrollbar {
+    color: #0d1a92ab;
+    border-radius: 40px;
+    height: 5px;
+    width: 2px;
+    display: none;
+}
+
+.whychoose_inner_section::-webkit-scrollbar-track {
+    background-color: #0d1a923b;
+    border-radius: 40px;
+}
+
+.whychoose_inner_section::-webkit-scrollbar-thumb {
+    background-color: #0d1a9233;
+    border-radius: 50px;
+}
+
+.whychoose_inner_section::-webkit-scrollbar-thumb:hover {
+    background-color: #0d1a92;
+    width: 3px;
+}
+
+.nav-btn-ride {
+    a {
+        font-weight: 700;
+    }
+}
+
+/**RIDE BUSINESS PAGE USE BUSINESS FORM CSS**/
+.main_banner_form_section {
+    background: url(../../../public/Images/ride_with_us/ride_business/Rectangle5.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    @media (max-width: 991px) {
+        background: none;
+    }
+
+    .inner_banner_form {
+        .sub_inner_banner_form {
+            border: 1.975px solid rgba(255, 255, 255, 0.40);
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(124deg, rgba(255, 255, 255, 0.40) 11.74%, rgba(255, 255, 255, 0.10) 87.03%);
+            box-shadow: 0px 27.65432px 44.44445px -0.98765px rgba(0, 0, 0, 0.05);
+            backdrop-filter: blur(19.75308609008789px);
+            border-radius: 15px;
+
+            @media (max-width:991px) {
+                backdrop-filter: none;
+            }
+
+            .business_card {
+                background: transparent;
+                background-color: transparent;
+                border: 0px;
+                border-radius: 25px;
+
+                @include mediaResponsive(md) {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    // padding-left: 20px ;
+                    margin-top: 15px;
+                    background: var(--ozove-white, #FFF);
+                    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+                }
+
+                .inner_bussinessform {
+                    .form-group_business {
+                        .bold_text {
+                            @include mediaResponsive(md) {
+                                font-weight: 600;
+                            }
+                        }
+
+                        margin-bottom: 15px;
+                    }
+
+                    @include mediaResponsive(md) {
+                        padding-left: 8px;
+                        padding-right: 8px;
+                    }
+
+                    .first_title {
+                        font-weight: 600;
+                        color: $black ;
+                        line-height: 25px;
+
+                        @include mediaResponsive(md) {
+                            width: 100%;
+                        }
+                    }
+
+                    .second_title {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: $black ;
+                        line-height: 25px;
+
+                        @include mediaResponsive(md) {
+                            width: 100%;
+                        }
+
+                    }
+
+                    .third_title {
+                        font-size: 24px;
+                        font-weight: 700;
+                        color: $grey ;
+                        line-height: normal;
+                    }
+
+                    .border-custom {
+                        border-bottom: 3px solid #FAAD1D;
+                    }
+
+                    input {
+                        color: $grey ;
+                        // font-weight: 600;
+                        padding: 15px;
+                        border: 0px;
+                        border-radius: 20px;
+                        background: rgba(255, 255, 255, 0.85);
+                        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05), 0px 2.96296px 5.92593px 0px rgba(0, 0, 0, 0.05), 0px 9.87654px 9.87654px 0px rgba(0, 0, 0, 0.04), 0px 22.71605px 13.82716px 0px rgba(0, 0, 0, 0.03), 0px 40.49383px 15.80247px 0px rgba(0, 0, 0, 0.01), 0px 63.20988px 17.77778px 0px rgba(0, 0, 0, 0.00);
+
+                        @include mediaResponsive(md) {
+                            color: #7D7D7D;
+                            font-size: 12px;
+                            font-weight: 600;
+                            padding: 15px;
+                            border: 0px;
+                            border-radius: 5px;
+                            background: #F7F7F7;
+                            box-shadow: none;
+                        }
+                    }
+
+                    input:focus {
+                        color: $grey ;
+                        // font-weight: 600;
+                        padding: 15px;
+                        border: 0px;
+                        border-radius: 20px;
+                        background: rgba(255, 255, 255, 0.85);
+                        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05), 0px 2.96296px 5.92593px 0px rgba(0, 0, 0, 0.05), 0px 9.87654px 9.87654px 0px rgba(0, 0, 0, 0.04), 0px 22.71605px 13.82716px 0px rgba(0, 0, 0, 0.03), 0px 40.49383px 15.80247px 0px rgba(0, 0, 0, 0.01), 0px 63.20988px 17.77778px 0px rgba(0, 0, 0, 0.00);
+
+                        @include mediaResponsive(md) {
+                            color: #7D7D7D;
+                            font-size: 12px;
+                            font-weight: 600;
+                            padding: 15px;
+                            border: 0px;
+                            border-radius: 5px;
+                            background: #F7F7F7;
+                            box-shadow: none;
+                        }
+
+                    }
+                }
+
+                .ridebusinessbtn {
+                    font-size: 26px;
+                    border-radius: 15px 15px;
+                    border: 1.975px solid rgba(255, 255, 255, 0.40);
+                    background: linear-gradient(0deg, #FAAD1D 0%, #FAAD1D 100%), linear-gradient(124deg, rgba(255, 255, 255, 0.40) 11.74%, rgba(255, 255, 255, 0.10) 87.03%);
+                    box-shadow: 0px 27.65432px 44.44445px -0.98765px rgba(0, 0, 0, 0.05);
+                    backdrop-filter: blur(19.75308609008789px);
+                    color: $black ;
+                    font-weight: 700;
+                    border: 1px solid transparent;
+
+                    &:hover {
+                        border: 1px solid transparent;
+                    }
+
+                    @include mediaResponsive(md) {
+                        width: fit-content;
+                        padding-left: 25px;
+                        padding-right: 25px;
+                        text-align: left;
+                        border-radius: 5px;
+                        color: $black ;
+                        backdrop-filter: blur(0px);
+                        font-weight: 700;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

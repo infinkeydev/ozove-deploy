@@ -1,0 +1,58 @@
+.home .carousel-control-prev-icon,
+.home .carousel-control-next-icon {
+    background-color: #000;
+    width: 4rem;
+    height: 4rem;
+
+    @media (max-width:1500px) {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+.carousel-control-prev {
+    left: -7.2%;
+    opacity: 1;
+}
+
+.carousel-control-next {
+    right: -7.2%;
+    opacity: 1;
+}
+
+.home .home-section-3 .carousel-indicators {
+    bottom: 3rem;
+}
+
+.home .home-section-3 {
+    .carousel-indicators [data-bs-target] {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        background-color: transparent;
+        border: 2px solid #fff;
+
+        // border-top: none;
+        // border-bottom: none;
+        @media (max-width:1500px) {
+            width: 10px;
+            height: 10px;
+        }
+    }
+
+    .carousel-indicators .active {
+        fill: #fff;
+    }
+}
+
+.pilotslider {
+    .home-section-3 {
+        background-color: #f2f2f2 !important;
+
+        .carousel {
+            padding: 3rem 0 !important;
+        }
+    }
+}

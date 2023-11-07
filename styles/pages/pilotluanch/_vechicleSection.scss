@@ -1,0 +1,165 @@
+.vehicle_section {
+    .nav-pills .nav-link {
+        background-color: #f2f2f2;
+        border-radius: 0;
+        border: none;
+    }
+
+    .nav_cards {
+        width: 25%;
+
+        @media(max-width: 991px) {
+            width: 50%;
+        }
+
+        @media(max-width: 576px) {
+            width: 100%;
+        }
+    }
+
+    background-color: #FFFDF9;
+
+    .card {
+        border-radius: 25px;
+        border: 0;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0px 4px 10px rgb(0 0 0 / 30%);
+    }
+
+    .vehicle_title {
+        color: $grey !important;
+        font-size: 62px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: capitalize;
+        line-height: normal;
+
+        @media(max-width:1500px) {
+            font-size: 45px;
+        }
+
+        @media (max-width:991px) {
+            text-align: left;
+            font-size: 36px;
+        }
+
+        @media (max-width:575px) {
+            font-size: 26px;
+        }
+    }
+
+    .sub_titles {
+        @include font-montserrat;
+        // color: $grey;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 10px;
+        text-align: left;
+        font-style: normal;
+        line-height: normal;
+        text-transform: capitalize;
+
+        @include mediaResponsive(xxl) {
+            font-size: 42px;
+        }
+
+        @include mediaResponsive(xl) {
+            font-size: 40px;
+        }
+
+        @include mediaResponsive(mLg) {
+            font-size: 38px;
+        }
+
+        @include mediaResponsive(md) {
+            font-size: 36px;
+        }
+
+        @include mediaResponsive(sm) {
+            text-align: left !important;
+            line-height: 31px !important;
+            font-size: 25px;
+        }
+
+        @include mediaResponsive(xs) {
+            text-align: left !important;
+            line-height: 31px !important;
+            font-size: 24px;
+        }
+    }
+
+    .delivery_tab_section {
+        svg {
+            height: 15%;
+            width: 15%;
+        }
+    }
+
+
+    .mob-section {
+        ul {
+            .tab-pane.fade:not(.show) {
+                display: none;
+            }
+
+            li {
+
+                button.active,
+                button:hover {
+                    .tab_icon_hover {
+                        display: block;
+                    }
+
+                    .tab_icon {
+                        display: none;
+                    }
+                }
+
+                button:not(.active) {
+                    .tab_icon_hover {
+                        display: none;
+                    }
+
+                    .tab_icon {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-li {
+
+        button.active,
+        button:hover {
+            .tab_icon_hover {
+                display: block;
+            }
+
+            .tab_icon {
+                display: none;
+            }
+        }
+
+        button:not(.active) {
+            .tab_icon_hover {
+                display: none;
+            }
+
+            .tab_icon {
+                display: block;
+            }
+
+            &:hover {
+                .tab_icon_hover {
+                    display: block;
+                }
+    
+                .tab_icon {
+                    display: none;
+                }
+            }
+        }
+    }
+}

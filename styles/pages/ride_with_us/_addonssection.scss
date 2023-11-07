@@ -1,0 +1,155 @@
+.mainaddonssection {
+    @media (max-width:991px) {
+        background-color: transparent !important;
+    }
+
+    .addonssection {
+        @media (max-width:991px) {
+            border-radius: 10px;
+            background: #FCF9F4;
+            box-shadow: 0px 4px 10px 0px #0000001A !important;
+        }
+    }
+}
+
+.addonstitles {
+    color: $socialiconyellow;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 30px;
+
+    @media(max-width: 1700px) {
+        font-size: 24px;
+    }
+
+    @media (max-width:1500px) {
+        font-size: 22px;
+    }
+
+    @media (max-width:1200px) {
+        font-size: 22px;
+    }
+
+    @media (max-width:991px) {
+        color: $grey;
+        font-size: 16px;
+    }
+
+    @media (max-width:576px) {
+        font-size: 18px;
+    }
+}
+
+.adons_description1 {
+    color: $grey;
+    line-height: normal;
+    font-weight: 400 !important;
+    text-transform: capitalize;
+    font-size: 22px;
+
+    @media(max-width: 1700px) {
+        font-size: 20px;
+    }
+
+    @media (max-width:1500px) {
+        font-size: 18px;
+    }
+
+    @media (max-width:1200px) {
+        font-size: 16px;
+    }
+
+    @media(max-width: 991px) {
+        font-size: 14px;
+    }
+
+    @media(max-width:576px) {
+        font-size: 14px;
+    }
+}
+
+.addonstitle {
+    color: $grey;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    text-transform: capitalize;
+
+    @media (max-width:1700px) {
+        font-size: 50px;
+    }
+
+    @media (max-width:1500px) {
+        font-size: 42px;
+    }
+
+    @media (max-width:1200px) {
+        font-size: 40px;
+    }
+
+    @media (max-width:991px) {
+        font-size: 35px;
+    }
+
+    @media (max-width:576px) {
+        font-size: 30px;
+    }
+}
+
+.addonsdesc {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    color: $grey;
+
+    @media(max-width: 1700px) {
+        font-size: 12px;
+    }
+
+    @media (max-width:1500px) {
+        font-size: 11px;
+    }
+
+    @media (max-width:1200px) {
+        font-size: 12px;
+    }
+
+    @media (max-width:991px) {
+        font-size: 8px;
+    }
+
+    @media (max-width:576px) {
+        font-size: 11px;
+    }
+}
+
+
+.addons_inner_section {
+    overflow-x: auto !important;
+}
+
+.addons_inner_section::-webkit-scrollbar {
+    color: #0d1a92ab;
+    border-radius: 40px;
+    height: 5px;
+    width: 2px;
+    display: none;
+}
+
+.addons_inner_section::-webkit-scrollbar-track {
+    background-color: #0d1a923b;
+    border-radius: 40px;
+}
+
+.addons_inner_section::-webkit-scrollbar-thumb {
+    background-color: #0d1a9233;
+    border-radius: 50px;
+}
+
+.addons_inner_section::-webkit-scrollbar-thumb:hover {
+    background-color: #0d1a92;
+    width: 3px;
+}
