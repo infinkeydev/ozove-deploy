@@ -1,0 +1,11 @@
+.cost_section {
+    background-color: #333333;
+
+    .how_much_desc {
+        font-size: 20px;
+
+        @media (max-width:1500px) {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,126 @@
+.delivery_business .Hyper_Local_Section .usage-bg {
+    background-color: #fffbf4;
+
+    .points {
+        width: 1.25rem;
+    }
+
+    @include mediaResponsive(md) {
+        border-radius: 10px;
+    }
+}
+
+.delivery_business {
+    .Hyper_Local_Section .Hyper_Local_Section_Options {
+        .nav-pills .nav-link.active {
+            background-color: #fff;
+        }
+
+        .tab-content .nav-pills .nav-link.active {
+            background-color: #fff;
+            color: #faad1d !important;
+            border-left: 5px solid #faad1d;
+            border-radius: 0;
+        }
+    }
+
+    .card {
+        border-radius: 25px;
+        box-shadow: 0px 4px 10px rgb(0 0 0 / 30%);
+
+        .mob-section {
+
+            .row ul {
+                // display: flex;
+                white-space: nowrap;
+                flex-wrap: nowrap;
+                overflow-x: auto;
+            }
+
+            li,
+            .nav-pills .nav-link.active,
+            .tab-pane {
+                background-color: #f7f7f7;
+                opacity: 1 !important;
+                font-weight: 700 !important;
+
+                .usage-bg {
+                    p.text-black {
+                        // display: flex;
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+
+                        img {
+                            margin-right: 5px;
+                        }
+                    }
+
+                    .card {
+                        border-radius: 15px;
+                        background-color: #f7f7f7;
+                    }
+
+                    .card_1 {
+                        box-shadow: none;
+                        border: 0;
+                    }
+                }
+            }
+
+            li {
+                background-color: #f7f7f7;
+            }
+
+            // .fade.show {
+            //     display: block;
+            // }
+
+            .fade:not(.show) {
+                display: none;
+            }
+        }
+    }
+}
+
+.delivery_business .Hyper_Local_Section .main-li {
+    button.active {
+        .tab_icon_hover {
+            display: block;
+        }
+
+        .tab_icon {
+            display: none;
+        }
+
+        &:hover {
+            .tab_icon_hover {
+                display: block;
+            }
+
+            .tab_icon {
+                display: none;
+            }
+        }
+    }
+
+    button:not(.active) {
+        .tab_icon_hover {
+            display: none;
+        }
+
+        .tab_icon {
+            display: block;
+        }
+
+        &:hover {
+            .tab_icon_hover {
+                display: block;
+                border-bottom: 10px solid #faad1d;
+            }
+
+            .tab_icon {
+                display: none;
+            }
+        }
+    }
+}

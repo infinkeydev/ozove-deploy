@@ -1,0 +1,13 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Vehicle Rental" clip-path="url(#clip0_65_3447)">
+<rect id="Rectangle 766" x="35.8457" y="-0.304688" width="36" height="72" fill="#FAAD1D"/>
+<path id="Vector" d="M21 57C24.3137 57 27 54.3137 27 51C27 47.6863 24.3137 45 21 45C17.6863 45 15 47.6863 15 51C15 54.3137 17.6863 57 21 57Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M51 57C54.3137 57 57 54.3137 57 51C57 47.6863 54.3137 45 51 45C47.6863 45 45 47.6863 45 51C45 54.3137 47.6863 57 51 57Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M15 51H9V33M9 33L15 18H42L54 33M9 33H54M54 33H57C58.5913 33 60.1174 33.6321 61.2426 34.7574C62.3679 35.8826 63 37.4087 63 39V51H57M45 51H27M36 33V18" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_65_3447">
+<rect width="72" height="72" fill="white"/>
+</clipPath>
+</defs>
+</svg>

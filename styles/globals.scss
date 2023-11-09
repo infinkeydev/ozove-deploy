@@ -1,0 +1,111 @@
+@import "./helpers/variables";
+@import "./helpers/mixins";
+@import "./helpers/generators";
+
+@import "./components/header";
+@import "./components/footer";
+@import "./components/faqSection";
+
+//Delivery
+@import "../styles/pages/delivery/business/banner";
+@import "../styles/pages/delivery/business/usage";
+@import "../styles/pages/delivery/business/set_up_delivery";
+@import "../styles/pages/delivery/business/any_vehicle";
+@import "../styles/pages/delivery/individual/banner";
+@import "../styles/pages//delivery/individual/locall_delivery";
+@import "../styles/pages/delivery/individual/how_much_cost";
+@import "../styles/pages/delivery/individual/statistics";
+
+//ride-with-us/business used Banner Section 
+@import "./pages/ride_with_us/ridebannerSection";
+@import "./pages/ride_with_us/whychooseForm";
+@import "./pages/ride_with_us/onDemandSection";
+@import "./pages/ride_with_us/advantagesSection";
+@import "./pages/ride_with_us/vehicleDeliverySection";
+@import "./pages/ride_with_us/ownFleet";
+/**Use Ride Individual page*/
+@import "./pages/ride_with_us/howitsWork";
+@import "./pages/ride_with_us/nearbyyeventssection";
+@import "./pages/ride_with_us/addonssection";
+
+//Contact
+@import "./pages/contact/contact";
+
+//About Us
+@import "./pages/about_us/banner";
+@import "./pages/about_us/introduction";
+@import "./pages/about_us/our_story";
+@import "./pages/about_us/what_we_do";
+@import "./pages/about_us/our_vision_mission";
+@import "./pages/about_us/our_core_values";
+@import "./pages/about_us/signUp_for_pilot";
+
+// Blogs Page
+@import "./pages/blogs/bannerSection";
+@import "./pages/blogs/bloglist";
+@import "./pages/blogs/hyperlocal_deliveries_ascend";
+@import "./pages/blogs/logistics_trends";
+@import "./pages/blogs/oz_ove_empowering";
+@import "./pages/blogs/revolutionizing-mobility";
+@import "./pages/blogs/revolutionising_local_delivery_services";
+@import "./pages/blogs/simplyfy_group_bookings_with_oz_ove";
+@import "./pages/blogs/unlocking_the_power_of_logistics";
+
+// Careers Page
+@import "./pages/careers/bannerSection";
+@import "./pages/careers/ourcareers";
+@import "./pages/careers/openpositions";
+
+//drive-with-us/fleet-management
+@import "./pages/fleet_management/banner";
+@import "./pages/fleet_management/microentrepreneurssection";
+@import "./pages/fleet_management/setfleetsection";
+@import "./pages/fleet_management/manage_fleet";
+@import "./pages/fleet_management/partnergrow";
+
+// Pilotluanch Page
+@import "./pages/pilotluanch/bannerSection";
+@import "./pages/pilotluanch/launching";
+@import "./pages/pilotluanch/vechicleSection";
+@import "./pages/pilotluanch/acknowledgement";
+@import "./pages/pilotluanch/journeySection";
+
+@import "./pages/Home/section1.scss";
+@import "./pages/Home/section2.scss";
+@import "./pages/Home/section3.scss";
+@import "./pages/Home/section4.scss";
+@import "./pages/Home/section5.scss";
+@import "./pages/Home/section6.scss";
+@import "./pages/Home/section7.scss";
+
+
+
+// drive-with-us/apply-to-drive
+@import "./pages/apply-to-drive/driverbanner";
+@import "./pages/apply-to-drive/freetoWorkSection";
+@import "./pages/apply-to-drive/howdoeswork";
+
+@import "./base/reset";
+@import "./base/typography";
+
+@import './common';
+
+.navbar {
+    background-color: #333333;
+}
+
+.nav-link:focus-visible {
+    box-shadow: none;
+}
+
+.text-yellow {
+    color: #faad1d;
+}
+
+.bg-yellow {
+    background-color: #faad1d;
+}
+
+footer {
+    background-color: #333333;
+}

@@ -1,0 +1,78 @@
+// generate min-width sizes classes
+// ==================
+
+@each $width in $widths {
+    .min-w-#{$width} {
+        min-width: ($width +#{$unit});
+    }
+    .max-w-#{$width} {
+        max-width: ($width +#{$unit});
+    }
+}
+
+// generate min height sizes classes
+// ==================
+@each $height in $heights {
+    .min-h-#{$height} {
+        min-height: ($height +#{$unit});
+    }
+    .max-h-#{$height} {
+        max-height: ($height +#{$unit});
+    }
+}
+
+// generate font sizes classes
+// ==================
+
+@each $size in $font-sizes {
+    .fs-#{$size} {
+        font-size: $size +#{$unit};
+    }
+}
+
+// generate font weights classes
+// ==================
+
+@each $weight in $weights {
+    .fw-#{$weight} {
+        font-weight: $weight;
+    }
+}
+
+@each $color_name, $value in $colors {
+    .text-#{$color_name} {
+        color: $value;
+    }
+    .bg-#{#{$color_name}} {
+        background-color: $value !important;
+    }
+}
+
+
+// generate negative margin classes
+@each $margin in $font-sizes {
+    $nMargin: -#{$margin};
+    .ml-n-#{$margin} {
+        margin-left: $nMargin+#{$unit} !important;
+    }
+    .mr-n-#{$margin} {
+        margin-right: $nMargin+#{$unit} !important;
+    }
+    .mt-n-#{$margin} {
+        margin-top: $nMargin+#{$unit} !important;
+    }
+    .mb-n-#{$margin} {
+        margin-bottom: $nMargin+#{$unit} !important;
+    }
+}
+
+// z-index classes
+@each $zIndex in $font-sizes {
+    $nzIndex: -#{$zIndex};
+    .z-#{$zIndex} {
+        z-index: $zIndex !important;
+    }
+    .z-n-#{$zIndex} {
+        z-index: $nzIndex !important;
+    }
+}

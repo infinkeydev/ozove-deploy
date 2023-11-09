@@ -1,0 +1,286 @@
+// .Upper Signup Section
+.upper_section_signup {
+    .top_business_problem {
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            background-color: $grey;
+            height: 120px !important;
+            min-height: 120px !important;
+            width: 100% !important;
+            left: 0 !important;
+            bottom: -1px !important;
+            z-index: -1;
+
+            @include mediaResponsive(md) {
+                height: 0px !important;
+                min-height: 0px !important;
+                max-height: 0px !important;
+            }
+        }
+    }
+
+    // position: relative;
+    .signup_inner_section {
+        // position: absolute;
+        background: linear-gradient(90deg, #FFE259 0%, #FFCA66 57.08%, #FFBC7B 100%);
+        border-radius: 20px;
+
+        @include mediaResponsive(md) {
+            display: none !important;
+        }
+
+        p.unlock_title {
+            font-family: 'Inter', sans-serif !important;
+            font-weight: 600 !important;
+            line-height: 29px !important;
+            color: $grey !important;
+            font-size: 20px;
+
+            span {
+                font-weight: 400 !important;
+                font-size: 18px;
+            }
+        }
+
+        p.signup_title {
+            font-family: 'Inter', sans-serif !important;
+            font-weight: 600 !important;
+            font-size: 18px !important;
+        }
+
+        button.signup_btn {
+            @include font-montserrat;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 700;
+            // line-height: 38px;
+            background-color: $grey;
+            color: $white;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: $white;
+                color: $grey;
+            }
+
+            @include mediaResponsive(mLg) {
+                font-size: 14px;
+            }
+
+            @include mediaResponsive(sm) {
+                font-size: 14px;
+            }
+        }
+
+        .qr_code_section img,
+        .qr_code_section span {
+            object-fit: contain;
+        }
+    }
+}
+
+
+
+
+// .Upper Signup Section
+.full_upperSection {
+    .top_business_problem {
+        position: relative;
+
+        &::before {
+            content: "";
+            z-index: -1;
+
+            @include mediaResponsive(md) {
+                height: 0px !important;
+                min-height: 0px !important;
+                max-height: 0px !important;
+            }
+        }
+    }
+}
+
+/*Lower Footer Sectiojn*/
+.footer_section {
+    font-family: 'Inter', sans-serif !important;
+    background-color: $grey;
+
+    .inner_upper_section {
+
+        .Logo img,
+        .Logo span {
+            object-fit: contain;
+            height: 100%;
+            min-height: 100%;
+            max-height: 100%;
+        }
+
+        /*social_media_section Used web device UI is View 768px Above and 767px below in hide section*/
+        .social_media_section {
+            .follow_title {
+                font-family: 'Inter', sans-serif !important;
+                font-weight: 700 !important;
+            }
+
+            @include mediaResponsive(md) {
+                display: none;
+            }
+        }
+
+        .social_media_section img,
+        .social_media_section span {
+            object-fit: contain;
+            height: 30px !important;
+            width: 30px !important;
+        }
+    }
+
+    // Lower Section
+    .inner_lower_section {
+        .footer_page_title {
+            font-family: 'Inter', sans-serif !important;
+            font-weight: 700 !important;
+
+            @include mediaResponsive(md) {
+                line-height: 21px !important;
+            }
+        }
+
+        .footer_inner_pages_subtitle {
+            a {
+                color: $white;
+                text-decoration: none;
+
+                &:hover {
+                    color: $socialiconyellow;
+                }
+            }
+
+            font-family: 'Inter',
+            sans-serif !important;
+            font-weight: 400 !important;
+
+            @include mediaResponsive(md) {
+                line-height: 17px !important;
+            }
+        }
+
+        .border-footer-top {
+            border-top: 1px solid #7B7B7B;
+        }
+
+        .comapny_rights {
+            font-family: 'Inter', sans-serif !important;
+            font-weight: 400 !important;
+        }
+    }
+
+    /*Used mobile device UI is View 767px below*/
+    .mobile_social_media_section {
+        .follow_title {
+            font-weight: 700 !important;
+        }
+
+        display: none;
+
+        @include mediaResponsive(md) {
+            display: block;
+        }
+    }
+
+    .mobile_social_media_section img,
+    .mobile_social_media_section span {
+        object-fit: contain;
+        height: 30px !important;
+        width: 30px !important;
+    }
+}
+
+
+.upper_section_signupimage {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: $grey;
+        height: 120px !important;
+        min-height: 120px !important;
+        width: 100% !important;
+        left: 0 !important;
+        bottom: -1px !important;
+
+        @include mediaResponsive(md) {
+            height: 0px !important;
+            min-height: 0px !important;
+            max-height: 0px !important;
+        }
+    }
+
+    background: url("../../public/Images/carres_footer_banner.png");
+    background-position: top center;
+    background-size: 100% 100%;
+    // height: 50vh;
+    background-repeat: no-repeat;
+    width: 100% !important;
+}
+
+
+.upper_section_signupimagedriver {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: $grey;
+        height: 120px !important;
+        min-height: 120px !important;
+        width: 100% !important;
+        left: 0 !important;
+        bottom: -1px !important;
+
+        @include mediaResponsive(md) {
+            height: 0px !important;
+            min-height: 0px !important;
+            max-height: 0px !important;
+        }
+    }
+
+    background: url("../../public/Images/apply_to_drive/driverFooter.png");
+    background-position: center;
+    background-size: 100% 101%;
+    // height: 50vh;
+    background-repeat: no-repeat;
+    width: 100% !important;
+}
+
+.upper_section_signupimageabout {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: $grey;
+        height: 120px !important;
+        min-height: 120px !important;
+        width: 100% !important;
+        left: 0 !important;
+        bottom: -1px !important;
+
+        @include mediaResponsive(md) {
+            height: 0px !important;
+            min-height: 0px !important;
+            max-height: 0px !important;
+        }
+    }
+
+    background: url("../../public/Images/about_us/aboutFooter.png");
+    background-position: center;
+    background-size: 100% 101%;
+    // height: 50vh;
+    background-repeat: no-repeat;
+    width: 100% !important;
+}

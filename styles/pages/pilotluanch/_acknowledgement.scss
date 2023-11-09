@@ -1,0 +1,100 @@
+.acknowledgement_section {
+    .acknowledge_section {
+
+        background: url("../../../public/Images/pilot_launch/Rectangle.png");
+        background-position: right center;
+        right: 0%;
+        background-repeat: no-repeat;
+        background-size: 45% 100%;
+
+        @include mediaResponsive(md) {
+            display: none;
+            // background: none !important;
+        }
+    }
+
+    img {
+        @media(min-width: 576px) and (max-width:991px) {
+            object-fit: unset;
+        }
+    }
+
+    .acknowledge_title {
+        @include font-montserrat;
+        color: $grey;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 10px;
+        text-align: left;
+        font-style: normal;
+        line-height: normal;
+        text-transform: capitalize;
+
+        @media (max-width:1600px) {
+            font-size: 40px;
+        }
+
+        @media (max-width:1500px) {
+            font-size: 36px;
+        }
+
+        @media (max-width:1200px) {
+            font-size: 22px;
+        }
+
+        @media (max-width:991px) {
+            text-align: left !important;
+            // color: white !important;
+            font-size: 18px;
+        }
+
+        @media (max-width:575px) {
+            font-size: 22px;
+            font-weight: 700;
+        }
+    }
+
+    .acdescrption {
+        @include font-montserrat;
+        color: $grey;
+        font-size: 26px;
+        font-weight: 400;
+        // line-height: 36px;
+        line-height: normal;
+        letter-spacing: 0em;
+        text-align: left;
+
+        @media (max-width:1600px) {
+            font-size: 40px;
+        }
+
+        @media (max-width:1500px) {
+            font-size: 24px;
+        }
+
+        @media (max-width:1200px) {
+            font-size: 22px;
+        }
+
+        @media (max-width:991px) {
+            font-size: 18px;
+        }
+
+        @media (max-width:575px) {
+            font-size: 16px;
+        }
+    }
+
+    .acknowledgement_section {
+        .card {
+            border-radius: 25px;
+            box-shadow: 0px 4px 10px rgb(0 0 0 / 30%);
+        }
+    }
+
+    .right_side_bg {
+        .project_bg_section {
+            border-radius: 20px !important;
+        }
+    }
+}

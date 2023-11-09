@@ -1,0 +1,48 @@
+.stastics_section {
+    .mob-stastics {
+        .flex-row {
+            background-color: #f1f3f4;
+        }
+    }
+
+    .why_choose_head {
+        font-size: 26px;
+
+        @media (max-width:1500px) {
+            font-size: 18px;
+        }
+    }
+
+    .why_choose_sub {
+        font-size: 28px;
+
+        @media (max-width:1500px) {
+            font-size: 22px;
+        }
+    }
+
+    .stastics_desc {
+        font-size: 20px;
+
+        @media (max-width:1500px) {
+            font-size: 13px;
+        }
+    }
+
+    .icon_1_width {
+        width: 100%;
+    }
+
+    .icon_2_width {
+        width: 100%;
+    }
+
+    .icon_3_width {
+        width: 100%;
+    }
+
+    .icon_4_width {
+        width: 100%;
+    }
+
+}

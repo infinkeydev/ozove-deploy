@@ -1,0 +1,14 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mission Bonuses" clip-path="url(#clip0_65_1220)">
+<rect id="Rectangle 766" x="36.1094" y="-0.463745" width="36" height="72" fill="#FAAD1D"/>
+<path id="Vector" d="M36 40.5C45.9411 40.5 54 32.4411 54 22.5C54 12.5589 45.9411 4.5 36 4.5C26.0589 4.5 18 12.5589 18 22.5C18 32.4411 26.0589 40.5 36 40.5Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M20.2008 32.0372L6.75 56.25L18.9647 56.191C19.356 56.189 19.7412 56.2891 20.082 56.4815C20.4228 56.6739 20.7076 56.9518 20.9081 57.2879L27 67.5L39.4214 40.1738" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M51.5447 31.5L65.25 56.25L53.0353 56.1909C52.644 56.189 52.2589 56.2891 51.918 56.4815C51.5772 56.6738 51.2924 56.9518 51.0919 57.2878L45 67.5L36 47.7" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M36 31.5C40.9706 31.5 45 27.4706 45 22.5C45 17.5294 40.9706 13.5 36 13.5C31.0294 13.5 27 17.5294 27 22.5C27 27.4706 31.0294 31.5 36 31.5Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_65_1220">
+<rect width="72" height="72" fill="white"/>
+</clipPath>
+</defs>
+</svg>

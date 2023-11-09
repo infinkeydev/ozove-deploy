@@ -1,0 +1,122 @@
+// responsive mixin
+@mixin mediaResponsive($breakpoint) {
+  @if $breakpoint =="xxxxl" {
+    @media (min-width: 1500px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint =="xxxl" {
+    @media (min-width: 1366px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint =="xxxl_R" {
+    @media (max-width: 1366px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint =="xxl" {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint =="xl" {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint =="mLg" {
+    @media only screen and (min-width: 992px) and (max-width: 1024px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint =="lg" {
+    @media (max-width: 991px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint =="md" {
+    @media (max-width: 767px) {
+      @content;
+    }
+  }
+
+  // @else if $breakpoint =="mdLg" {
+  //   @media (min-width: 769px) {
+  //     @content;
+  //   }
+  // }
+
+  @else if $breakpoint =="sm" {
+    @media (max-width: 575px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint =="xs" {
+    @media (max-width: 321px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint =="xxs" {
+    @media (max-width: px) {
+      @content;
+    }
+  }
+}
+
+@mixin absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin gridCenter {
+  display: grid;
+  place-content: center;
+}
+
+@mixin flexLeft {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flexRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+// Number of lines mixin
+@mixin number-of-lines($lines) {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}
+
+@mixin font-montserrat {
+  font-family: $montserrat;
+}
+
+@mixin font-inter {
+  font-family: $inter;
+}

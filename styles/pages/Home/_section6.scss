@@ -1,0 +1,147 @@
+.home .corporate-bg {
+    background-image: url("../../../public/Images/png/Corporate.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50rem;
+
+    @media (max-width: 1400px) {
+        height: 40rem;
+    }
+
+    @media (max-width: 991px) {
+        height: 25rem;
+    }
+
+    @media (max-width: 991px) {
+        height: 25rem;
+    }
+
+    @media (max-width:576px) {
+        height: 18rem;
+    }
+
+    // .sub_container {
+    //     padding: 0 17.6rem;
+
+    //     @media (min-width:576px) {
+    //         padding: 0 17rem;
+    //     }
+
+    //     @media (min-width:768px) {
+    //         padding: 0 17rem;
+    //     }
+
+    //     @media (min-width:992px) {
+    //         padding: 0 17rem;
+    //     }
+
+    //     @media (min-width:1100px) {
+    //         padding: 0 17rem;
+    //     }
+
+    //     @media (min-width:1200px) {
+    //         padding: 0 17rem;
+    //     }
+
+    //     @media (min-width:1300px) {
+    //         padding: 0 13rem;
+    //     }
+
+    //     @media (min-width:1400px) {
+    //         padding: 0 17rem;
+    //     }
+
+    //     @media (min-width:1500px) {
+    //         padding: 0 17rem;
+    //     }
+
+    //     @media (min-width:1600px) {
+    //         padding: 0 17rem;
+    //     }
+
+    //     @media (min-width:1700px) {
+    //         padding: 0 17rem;
+    //     }
+
+    //     @media (min-width:1800px) {
+    //         padding: 0 17rem;
+    //     }
+    // }
+
+    .corporate_heading {
+        font-size: 52px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        @media (max-width:1800px) {
+            font-size: 45px;
+        }
+
+        @media (max-width:1600px) {
+            font-size: 40px;
+        }
+
+        @media (max-width:1500px) {
+            font-size: 36px;
+        }
+
+        @media (max-width:1200px) {
+            font-size: 30px;
+        }
+
+        @media (max-width:576px) {
+            font-size: 20px;
+        }
+    }
+
+    .corporate_desc {
+        font-size: 26px;
+        line-height: 27px;
+
+        @media (max-width:1800px) {
+            font-size: 25px;
+        }
+
+        @media (max-width:1600px) {
+            font-size: 20px;
+        }
+
+        @media (max-width:1500px) {
+            font-size: 24px;
+        }
+
+        @media (max-width:1200px) {
+            font-size: 30px;
+        }
+    }
+
+    button {
+        font-size: 26px;
+        line-height: 27px;
+
+        a {
+            color: black;
+        }
+
+        @media (max-width:1800px) {
+            font-size: 25px;
+        }
+
+        @media (max-width:1600px) {
+            font-size: 20px;
+        }
+
+        @media (max-width:1500px) {
+            font-size: 20px;
+        }
+
+        @media (max-width:1200px) {
+            font-size: 16px;
+        }
+
+        @media (max-width:576px) {
+            font-size: 13px;
+        }
+    }
+}

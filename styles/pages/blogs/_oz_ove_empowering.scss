@@ -1,0 +1,42 @@
+.oz_ove_empowering {
+    .section-background {
+        background-image: url("../../../public/Images/blogs/Oz\ Ove\ Empowering\ Seamless\ Riding\ &\ Logistics\ Solutions.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 46rem;
+
+        @media (max-width:1800px) {
+            height: 40.5rem;
+        }
+
+        @media (max-width:1700px) {
+            height: 35rem;
+        }
+
+        @media (max-width:1500px) {
+            height: 31.5rem;
+        }
+
+        @media (max-width:1200px) {
+            height: 26rem;
+        }
+
+        @media(max-width:991px) {
+            height: 22rem;
+        }
+
+        @media(max-width: 576px) {
+            height: 15rem;
+        }
+    }
+
+    .section_3_bg {
+        background-color: #f7f7f7;
+    }
+
+    // .related_post_desc {
+    //     font-size: 12px;
+    //     word-wrap: break-word;
+    // }
+}
